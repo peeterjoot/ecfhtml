@@ -1,0 +1,6 @@
+alias ssha='ssh-agent | head -2 | tee ~/.ssh/agent.env ; . ~/.ssh/agent.env ; ssh-add'
+alias sshe='. ~/.ssh/agent.env'
+alias ll='ls -l'
+alias la='ls -a'
+alias b='cd ..'
+alias phcp='cp ~/ecfhtml/*.html ~/public_html'
